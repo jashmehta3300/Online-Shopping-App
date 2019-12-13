@@ -9,6 +9,4 @@ A simple app showcasing frontend technologies such as React and Redux to create 
 
 # Example
 
-[![Watch the video](https://img.youtube.com/vi/IXrYfrjF084/0.jpg)](https://www.youtube.com/watch?v=IXrYfrjF084)
 
-# Don't forget to star this repo ;)

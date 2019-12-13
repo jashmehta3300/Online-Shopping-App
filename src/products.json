@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Red Velvet",
+    "price": 0.79,
+    "calories": 252,
+    "image": "item1.jpg",
+    "quantity":"1 piece"
+  },
+  {
+    "id": 2,
+    "name": "Strawbery Cake",
+    "price": 0.50,
+    "calories": 229,
+    "image": "item2.jpg",
+    "quantity": "1 piece"
+  },
+  {
+    "id": 3,
+    "name": "Brownie Cake",
+    "price": 0.68,
+    "calories": 236,
+    "image": "item3.jpg",
+    "quantity": "1 piece"
+  },
+  {
+    "id": 4,
+    "name": "Cappuccino",
+    "price": 0.33,
+    "calories": 83,
+    "image": "item4.jpg",
+    "quantity": "1 cup"
+  },
+  {
+    "id": 5,
+    "name": "Blueberry Cake",
+    "price": 0.79,
+    "calories": 252,
+    "image": "item5.jpg",
+    "quantity": "1 piece"
+  },
+  {
+    "id": 6,
+    "name": "Chocolate Cake",
+    "price": 0.55,
+    "calories": 229,
+    "image": "item6.jpg",
+    "quantity": "1 piece"
+  },
+  {
+    "id": 7,
+    "name": "Pineapple Muffins",
+    "price": 0.23,
+    "calories": 136,
+    "image": "item7.jpg",
+    "quantity": "2 pieces"
+  },
+  {
+    "id": 8,
+    "name": "Chocolate Cookie",
+    "price": 0.33,
+    "calories": 183,
+    "image": "item8.jpg",
+    "quantity": "1 piece"
+  }
+]

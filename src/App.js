@@ -1,27 +1,25 @@
-import React from "react";
-import HeaderComponent from "./components/HeaderComponent";
-import ProductComponent from "./components/ProductComponent";
-import TableComponent from "./components/TableComponent";
+import React, {Component} from "react";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Cart from "./components/Cart";
+import { Route,Switch } from "react-router-dom";
+import ErrorPage from "./components/ErrorPage";
 import "./App.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import PrivateRoute from "./components/PrivateRoute";
 
-function App() {
-  return (
-    <div>
-      <HeaderComponent />
-      <Container>
-        <br />
-        <Row>
-          <ProductComponent />
-        </Row>
-        <br />
-        <Row>
-          <TableComponent />
-        </Row>
-      </Container>
-    </div>
-  );
+class App extends Component {
+render(){
+  return(
+  <div>
+      <Switch>
+        <Route exact path="/" component={Login} />
+        <PrivateRoute exact path="/home" component={Home} />
+        <Route exact path="/cart" component={Cart} />
+        <Route exact path="/error" component={ErrorPage} />
+      </Switch>
+  </div> 
+  );  
+}
 }
 
 export default App;

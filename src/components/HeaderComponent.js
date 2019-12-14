@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 
@@ -17,7 +18,11 @@ function HeaderComponent(props) {
             <div className="col-lg-2"></div>
             <div className="col-lg-1">
               <div className="title mr-0">
-                <Button variant="primary cart" href="#">Cart</Button>               
+                <Link to={{
+                  pathname: "/cart"
+                }}>
+                  <Button variant="primary cart">Cart</Button>  
+                </Link>             
               </div>
             </div>
           </Navbar>

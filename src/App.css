@@ -56,3 +56,16 @@
   color:white;
   font-size: 28px;
 }
+
+.form-body{
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-top: 50px;
+}
+
+.status{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: red;
+}

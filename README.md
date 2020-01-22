@@ -1,12 +1,15 @@
-# Compare-Products App with React and Redux
+# Compare-Products App
 
 A simple app showcasing frontend technologies such as React and Redux to create a Compare-Products app.<br/>
+It show-cases various products available at a cafe and compares the ones chosen by the user, which is displayed in a tabular form.<br/>
+Protected routing has also been used for the login page.<br/>
+
 
 # How to run the app
 
     npm install
     npm start
 
-# Example
+
 
 

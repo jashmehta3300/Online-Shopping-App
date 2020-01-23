@@ -11,5 +11,10 @@ Protected routing has also been used for the login page.<br/>
     npm start
 
 
+# Screenshots
 
+![](https://github.com/jashmehta3300/Screenshots/blob/master/Compare-products_img/img1.jpeg)
 
+![](https://github.com/jashmehta3300/Screenshots/blob/master/Compare-products_img/img2.jpeg)
+
+![](https://github.com/jashmehta3300/Screenshots/blob/master/Compare-products_img/img3.jpeg)
